@@ -1,9 +1,10 @@
 
-# Required Libraries
+# can this script be manipulable, say 
 import os
 import cv2
 import base64
 import numpy as np
+import shutil
 from video.process_video import process_video  
 from video.collage.create_collage import create_collage 
 
@@ -37,7 +38,7 @@ def chunk_frames(base64_frames, chunk_size):
 def generate_collages_from_video(video_file_path, target_frame_rate):
     # Process the video
     processed_video = process_video(video_file_path, target_frame_rate)
-    
+
     # Convert adjusted frames to base64 for collage creation
     base64_frames = convert_frames_to_base64(processed_video['Adjusted Frames'])
 
@@ -81,6 +82,7 @@ def cleanup_collage_directory(directory):
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
     os.rmdir(directory)
+
 
 if __name__ == "__main__":
     video_file = "public/wrestling.mp4"
