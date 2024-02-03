@@ -6,6 +6,12 @@ Our team proudly won the GPT Store Hackathon 2024 by purpose-building GPTs for t
 ## Overview
 We aim to democratize AI by converting long-form text into short-form video content, similar to TikTok, YouTube Shorts, and Instagram Reels. Many individuals prefer consuming content in short video format due to time constraints, and we strive to leverage AI to automatically convert text into engaging videos.
 
+## Design 
+![kdx](https://github.com/mr-fool/Youtube-Short-inator/assets/6241984/d263fe8b-9da9-4da2-92bb-314f8011b514)
+
+## Screenshot
+![screenshot](https://github.com/mr-fool/Youtube-Short-inator/assets/6241984/e6884ac0-8144-4e3d-a25f-600d77a665be)
+
 ## Solution
 Using natural language models like Anthropic's Claude, voice synthesis with Resemble AI, and video generation from Twelve Labs, we can automatically convert text into short video clips.
 
@@ -52,3 +58,4 @@ We utilize several AI services:
 3. Run:
    ```bash
    python video-gemini.py # will send the video for Gemini narration
+
