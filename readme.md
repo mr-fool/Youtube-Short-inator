@@ -1,5 +1,8 @@
 # YouTube-Short-inator
 
+## GPT Store Hackathon 2024
+Our team proudly won the GPT Store Hackathon 2024 by purpose-building GPTs for the GPT Store, whether for OpenAI or open-source purposes. We dedicated our skills and expertise to contribute to the advancement of AI models available for broader usage.
+
 ## Overview
 We aim to democratize AI by converting long-form text into short-form video content, similar to TikTok, YouTube Shorts, and Instagram Reels. Many individuals prefer consuming content in short video format due to time constraints, and we strive to leverage AI to automatically convert text into engaging videos.
 
